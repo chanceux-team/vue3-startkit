@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    111
     <h1>This is an about page</h1>
   </div>
 </template>
