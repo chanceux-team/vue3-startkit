@@ -9,6 +9,11 @@ module.exports = {
     '@vue/eslint-config-typescript'
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
+  },
+  rules: {
+    'vue/multi-word-component-names': ['error', {
+      ignoreWhenBindingPresent: true
+    }]
   }
 }
