@@ -7,6 +7,10 @@ module.exports = antfu(
       'style/semi': ['error', 'always'],
       'no-console': 'warn',
       'node/prefer-global/process': 0,
+      'vue/max-attributes-per-line': [1, {
+        singleline: 3,
+        multiline: 1,
+      }],
     },
     ignores: [
       'dist',
